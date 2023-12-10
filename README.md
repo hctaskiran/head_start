@@ -1,16 +1,12 @@
-# head_start
+# Head Start #
+This 'project' includes basic plugins / widgets for future, a simple head-starting project.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# FEATURES #
+- [x] Folder management, everything is in their own,
+- [x] Animated splash screen, so you can add in the beginning of your app,
+- [x] On boarding screen, which is also known as Introduction screen to teach the basics of the app,
+- [x] Smooth animated transitions between pages(Fade, Slide etc.), also put practice inside,
+- [x] Easy Localization, just add your language.json file to assets and build with 'lang_build.sh',
+- [x] Shared Preferences as Local Database,
+- [x] Dio - Http for API management,
+- [x] Shimmer, for a cool loading screen. 
