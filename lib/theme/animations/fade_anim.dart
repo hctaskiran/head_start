@@ -18,3 +18,9 @@ class FadeAnim extends PageRouteBuilder {
           },
         );
 }
+
+/* 
+onTap: () {
+  Navigator.push(context, SlideAnim(page: const HomeView()));
+}
+*/

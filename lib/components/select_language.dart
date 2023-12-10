@@ -4,6 +4,8 @@ import 'package:head_start/core/enum/locale_enum.dart';
 import 'package:head_start/theme/animations/fade_anim.dart';
 import 'package:head_start/view/main/home_view.dart';
 
+// Dropdown button with languages, you can put this in actions of AppBar
+
 class ChooseLanguage extends Padding {
   final BuildContext context;
 
