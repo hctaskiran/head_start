@@ -16,7 +16,7 @@ class TestView extends StatelessWidget {
       body: Column(
         children: [
           const SizedBox(height: 10),
-          const Text('Default Icons', style: TextStyle(fontSize: 20)),
+          const Text('Vanilla Icons', style: TextStyle(fontSize: 20)),
           const SizedBox(height: 10),
           _defaultRow(),
           const SizedBox(height: 10),
