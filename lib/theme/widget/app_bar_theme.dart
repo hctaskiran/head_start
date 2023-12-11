@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:head_start/constants/application.dart';
 
 class CustomAppBarTheme extends AppBarTheme {
-  const CustomAppBarTheme({Key? key})
+  CustomAppBarTheme({Key? key})
       : super(
             toolbarHeight: 50,
             shape: const RoundedRectangleBorder(
@@ -14,7 +15,7 @@ class CustomAppBarTheme extends AppBarTheme {
             scrolledUnderElevation: 0,
             systemOverlayStyle: const SystemUiOverlayStyle(statusBarIconBrightness: Brightness.dark),
             backgroundColor: Colors.transparent,
-            iconTheme: const IconThemeData(color: Colors.black),
+            iconTheme: IconThemeData(color: CColor.black),
             centerTitle: true,
-            titleTextStyle: const TextStyle(color: Colors.black, fontSize: 20));
+            titleTextStyle: TextStyle(color: CColor.black, fontSize: 20));
 }

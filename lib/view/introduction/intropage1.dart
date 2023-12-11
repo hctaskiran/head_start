@@ -1,5 +1,6 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
+import 'package:head_start/constants/application.dart';
 import 'package:head_start/core/init/lang/locale_keys.g.dart';
 import 'package:lottie/lottie.dart';
 
@@ -15,7 +16,7 @@ class _IntroPage0State extends State<IntroPage0> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[300],
+      backgroundColor: CColor.gry3,
       body: Center(
         child: Column(
           children: [
@@ -34,7 +35,7 @@ class _IntroPage0State extends State<IntroPage0> {
                         TyperAnimatedText(
                           LocaleKeys.introduction_intro1,
                           textAlign: TextAlign.center,
-                          textStyle: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.black),
+                          textStyle: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: CColor.black),
                         ),
                       ],
                     ),

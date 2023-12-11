@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:head_start/constants/application.dart';
 
 class EBTheme extends ElevatedButtonThemeData {
   EBTheme({Key? key})
       : super(
           style: ElevatedButton.styleFrom(
-            foregroundColor: Colors.red[500],
-            backgroundColor: Colors.grey[100],
+            foregroundColor: CColor.r5,
+            backgroundColor: CColor.gry1,
             shape: const RoundedRectangleBorder(
               borderRadius: BorderRadius.all(Radius.circular(10)),
             ),

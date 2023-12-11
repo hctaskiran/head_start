@@ -25,17 +25,17 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Head Start',
+      title: 'Head Start Template',
       localizationsDelegates: context.localizationDelegates,
       supportedLocales: context.supportedLocales,
       locale: context.locale,
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        splashColor: Colors.transparent,
-        highlightColor: Colors.transparent,
-        bottomNavigationBarTheme: const CustomBNBTheme(),
+        splashColor: CColor.tr,
+        highlightColor: CColor.tr,
+        bottomNavigationBarTheme: CustomBNBTheme(),
         elevatedButtonTheme: EBTheme(),
-        appBarTheme: const CustomAppBarTheme(),
+        appBarTheme: CustomAppBarTheme(),
       ),
       home: const HomeView(),
     );
