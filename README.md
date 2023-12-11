@@ -1,7 +1,7 @@
-[!INTRO]
->🇬🇧 This template includes basic plugins / widgets future projects.
->🇹🇷 Bu taslak üzerinde yeni bir proje için çeşitli widget ve pluginler mevcuttur.
->🇷🇺 В этом черновике есть различные виджеты и плагины для каждого нового проекта.
+    # Head Start #
+🇬🇧 This template includes basic plugins / widgets future projects.
+🇹🇷 Bu taslak üzerinde yeni bir proje için çeşitli widget ve pluginler mevcuttur.
+🇷🇺 В этом черновике есть различные виджеты и плагины для каждого нового проекта.
 
 # FEATURES #
 - [x] Folder management, everything is in their own folder,
@@ -17,5 +17,5 @@
 - [ ] Icons that can come in handy in project, several icon packs with visual examples.
 
 # INTRUCTIONS #
-- In order to use localization properly, if you not going to use pre-created languages, create your language.json file inside 'assets/translations' then open {} brackets in order to create localization, then run the code inside 'lib/core/script' called 'lang_build.sh'.
-- In order to use the code 'select_language.dart' in pratice, simply put 'SelectLanguage()' inside the actions of AppBar.
+- In order to use localization properly, if you not going to use pre-created languages, create your language.json file inside `assets/translations` then open {} brackets in order to create localization, then run the code inside `lib/core/script` called `lang_build.sh`.
+- In order to use the code `select_language.dart` in pratice, simply put `SelectLanguage()` inside the actions of AppBar.
