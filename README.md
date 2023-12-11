@@ -12,7 +12,7 @@
 - [x] Shared Preferences as Local Database,
 - [x] Dio - Http for API management,
 - [x] Shimmer, for a cool loading screen. 
-- [x] Icons that may come in handy in project, several icon packs with visual examples. (Still keep adding)
+- [x] Icons that may come in handy in project, several icon packs with visual examples. (Still keep updating)
 
 ## TO DO ##
 - [ ] BLoC state management.
