@@ -14,8 +14,8 @@
 - [x] Shimmer, for a cool loading screen. 
 
 ## TO DO ##
-- [ ] Icons that can come in handy in project, several icon packs with visual examples.
+- [ ] Icons that may come in handy in project, several icon packs with visual examples.
 
-### INSTRUCTIONS ###
+## INSTRUCTIONS ##
 - In order to use localization properly, if you not going to use pre-created languages, create your language.json file inside `assets/translations` then open {} brackets in order to create localization, then run the code inside `lib/core/script` called `lang_build.sh`.
 - In order to use the code `select_language.dart` in pratice, simply put `SelectLanguage()` inside the actions of AppBar.
