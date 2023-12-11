@@ -1,5 +1,5 @@
 name: head_start
-description: "A new Flutter project."
+description: "Quick Start Template for Flutter projects with various widget - plugins."
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -17,14 +17,18 @@ dependencies:
   lottie: ^2.7.0 # For animation / icons
   smooth_page_indicator: ^1.1.0 # For introduction Screen
   animated_splash_screen: ^1.3.0 # For splash screen
+  google_fonts: ^6.1.0 # For fonts
 
   # Backend #
   dio: ^5.4.0 # For API calls
   http: ^1.1.2 # For API calls
+  hive: ^2.2.3 # Local DB
   shared_preferences: ^2.2.2 # LocalDB
   shimmer: ^3.0.0 # For loading animation
-  easy_localization: ^3.0.3 # For localization
+  easy_localization: ^3.0.3 # For multi language support
+  
 
+# DEV #
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -35,8 +39,8 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/img/
-    - assets/translations/
+    - assets/img/ # Images
+    - assets/translations/ # Translations
   
   # fonts:
   #   - family: Schyler

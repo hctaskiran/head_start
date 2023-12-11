@@ -15,7 +15,8 @@
 
 ## TO DO ##
 - [ ] Icons that may come in handy in project, several icon packs with visual examples.
-
+- [ ] BLoC state management.
+ 
 ## INSTRUCTIONS ##
 ### 🇬🇧 ###
 - In order to use localization properly, if you not going to use pre-created languages, create your language.json file inside `assets/translations` then open {} brackets (brackets can be empty) in order to create localization, then run the code inside `lib/core/script` named `lang_build.sh`. You have to run the script upon update in localization files.

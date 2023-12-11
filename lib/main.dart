@@ -10,22 +10,22 @@ import 'package:head_start/view/main/home_view.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+  await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]); // Device portrait mode
+  await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitDown]); // Device upside down
   await EasyLocalization.ensureInitialized();
   runApp(EasyLocalization(
-      startLocale: Application.language.toLocale(),
-      supportedLocales: Application.supportedLanguages.toLocale().toList(),
+      startLocale: Application.language.toLocale(), // Default project language is English
+      supportedLocales: Application.supportedLanguages.toLocale().toList(), 
       path: Application.paths.translation,
       child: const MyApp()));
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Head Start Template',
+      title: 'Quick Start Template',
       localizationsDelegates: context.localizationDelegates,
       supportedLocales: context.supportedLocales,
       locale: context.locale,

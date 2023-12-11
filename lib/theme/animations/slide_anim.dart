@@ -11,7 +11,6 @@ class SlideAnim extends PageRouteBuilder {
             const end = Offset.zero;
             var tween = Tween(begin: begin, end: end);
             var offsetAnimation = animation.drive(tween);
-
             return SlideTransition(
               position: offsetAnimation,
               child: child,
@@ -19,9 +18,3 @@ class SlideAnim extends PageRouteBuilder {
           },
         );
 }
-
-/* 
-onTap: () {
-  Navigator.push(context, SlideAnim(page: const HomeView()));
-}
-*/
