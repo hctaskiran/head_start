@@ -13,3 +13,9 @@ class Application {
 
   static const ApplicationPaths paths = ApplicationPaths();
 }
+
+class CColor {
+	static Color white = Colors.white;
+	static color gry3 = Colors.grey[300]!;
+	static color gry1 = Colors.grey[300]!;
+}
