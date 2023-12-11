@@ -16,9 +16,14 @@ class Application {
 
 class CColor {
 	static Color white = Colors.white;
+	static Color orange = Colors.orange;
 	static color gry3 = Colors.grey[100]!;
 	static color gry1 = Colors.grey[300]!;
+	static Color r5 = Colors.red[500]!;
 	static Color pi4 = Colors.pink[400]!;
+	static Color gry7 = Colors.grey[700]!;
 	static Color bnbBG = Colors.fromARGB(255, 244, 206, 219);
 	static Color black = Colors.black;
+	static Color tr = Colors.transparent;
+	
 }
