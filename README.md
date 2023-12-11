@@ -1,7 +1,7 @@
-# Head Start #
-🇬🇧 This template includes basic plugins / widgets future projects.
-🇹🇷 Bu taslak üzerinde yeni bir proje için çeşitli widget ve pluginler mevcuttur.
-🇷🇺 В этом черновике есть различные виджеты и плагины для каждого нового проекта.
+## INTRO ##
+*🇬🇧 This template includes basic plugins / widgets future projects.
+*🇹🇷 Bu taslak üzerinde yeni bir proje için çeşitli widget ve pluginler mevcuttur.
+*🇷🇺 В этом черновике есть различные виджеты и плагины для каждого нового проекта.
 
 # FEATURES #
 - [x] Folder management, everything is in their own folder,
