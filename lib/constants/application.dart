@@ -16,6 +16,9 @@ class Application {
 
 class CColor {
 	static Color white = Colors.white;
-	static color gry3 = Colors.grey[300]!;
+	static color gry3 = Colors.grey[100]!;
 	static color gry1 = Colors.grey[300]!;
+	static Color pi4 = Colors.pink[400]!;
+	static Color bnbBG = Colors.fromARGB(255, 244, 206, 219);
+	static Color black = Colors.black;
 }
