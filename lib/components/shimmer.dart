@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:head_start/constants/application.dart';
 import 'package:shimmer/shimmer.dart';
 
-// Need to use it with if-else condition
-
 class ShimmerLoad extends StatelessWidget {
   const ShimmerLoad({super.key});
 
