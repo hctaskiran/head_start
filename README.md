@@ -17,5 +17,5 @@
 - [ ] Icons that can come in handy in project, several icon packs with visual examples.
 
 # INTRUCTIONS #
-- In order to use localization properly, if you not going to use pre-created languages, create your language.json file inside <sub>'assets/translations'</sub> then open <sub>{}</sub> brackets in order to create localization, then run the code inside <sub>'lib/core/script'</sub> called <sub>'lang_build.sh'</sub>.
-- In order to use the code <sub>'select_language.dart'</sub> in pratice, simply put <sub>'SelectLanguage()'</sub> inside the actions of AppBar.
+- In order to use localization properly, if you not going to use pre-created languages, create your language.json file inside 'assets/translations' then open {} brackets in order to create localization, then run the code inside 'lib/core/script' called 'lang_build.sh'.
+- In order to use the code 'select_language.dart' in pratice, simply put 'SelectLanguage()' inside the actions of AppBar.
