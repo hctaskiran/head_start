@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:head_start/constants/application.dart';
 import 'package:head_start/core/enum/locale_enum.dart';
 import 'package:head_start/theme/animations/fade_anim.dart';
-import 'package:head_start/view/main/home_view.dart';
+import 'package:head_start/view/test/test_view.dart';
 
 class SelectLanguage extends Padding {
   final BuildContext context;
@@ -37,7 +37,7 @@ class SelectLanguage extends Padding {
                 context.setLocale(AppLanguages.supportedLanguages[selectedIndex]);
                 Navigator.push(
                   context,
-                  FadeAnim(page: const HomeView()),
+                  FadeAnim(page: const TestView()),
                 );
               },
             ),

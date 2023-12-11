@@ -7,7 +7,7 @@ import 'package:head_start/view/introduction/intropage1.dart';
 import 'package:head_start/view/introduction/intropage2.dart';
 import 'package:head_start/view/introduction/intropage3.dart';
 import 'package:head_start/view/introduction/intropage4.dart';
-import 'package:head_start/view/main/home_view.dart';
+import 'package:head_start/view/test/test_view.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
@@ -35,7 +35,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
     late bool onboardingCompleted = prefs.getBool('onboardingCompleted') ?? false;
 
     if (onboardingCompleted) {
-      Navigator.pushReplacement(context, MaterialPageRoute(builder: ((context) => const HomeView())));
+      Navigator.pushReplacement(context, MaterialPageRoute(builder: ((context) => const TestView())));
     }
   }
 
@@ -65,7 +65,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
               onLastPage
                   ? GestureDetector(
                       onTap: () {
-                        Navigator.push(context, SlideAnim(page: const HomeView()));
+                        Navigator.push(context, SlideAnim(page: const TestView()));
                       },
                       child: Container(
                           padding: const EdgeInsets.all(10),
