@@ -35,7 +35,7 @@ class SelectLanguage extends Padding {
               onChanged: (newValue) {
                 int selectedIndex = AppLanguages.Languages.indexOf(newValue as String);
                 context.setLocale(AppLanguages.supportedLanguages[selectedIndex]);
-                Navigator.push(
+                Navigator.pushReplacement(
                   context,
                   FadeAnim(page: const TestView()),
                 );
