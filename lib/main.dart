@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:head_start/constants/application.dart';
 import 'package:head_start/core/enum/language_enum.dart';
+import 'package:head_start/core/service/notification_service.dart';
 import 'package:head_start/theme/widget/app_bar_theme.dart';
 import 'package:head_start/theme/widget/bottom_nav_bar.dart';
 import 'package:head_start/theme/widget/elevated_button_theme.dart';
@@ -10,8 +11,14 @@ import 'package:head_start/view/test/test_view.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]); // Device portrait mode
-  await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitDown]); // Device upside down
+  // Notification
+  NotificationService().initNotification();
+
+  // Device Orientation
+  await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+  await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitDown]);
+
+  // Localization
   await EasyLocalization.ensureInitialized();
   runApp(EasyLocalization(
       startLocale: Application.language.toLocale(), // Default project language is English
@@ -31,8 +38,8 @@ class MyApp extends StatelessWidget {
       locale: context.locale,
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        splashColor: CColor.tr,
-        highlightColor: CColor.tr,
+        splashColor: Colors.transparent,
+        highlightColor: Colors.transparent,
         bottomNavigationBarTheme: CustomBNBTheme(),
         elevatedButtonTheme: EBTheme(),
         appBarTheme: CustomAppBarTheme(),

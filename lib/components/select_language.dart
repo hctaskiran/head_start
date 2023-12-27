@@ -24,21 +24,18 @@ class SelectLanguage extends Padding {
               ),
               underline: const SizedBox(),
               items: AppLanguages.Languages.asMap()
-                  .map((index, value) => MapEntry(
-                      index,
-                      DropdownMenuItem(
-                        value: value,
-                        child: Text(value),
-                      )))
-                  .values
+                  .entries
+                  .map(
+                    (entry) => DropdownMenuItem(
+                      value: entry.value,
+                      child: Text(entry.value),
+                    ),
+                  )
                   .toList(),
               onChanged: (newValue) {
                 int selectedIndex = AppLanguages.Languages.indexOf(newValue as String);
                 context.setLocale(AppLanguages.supportedLanguages[selectedIndex]);
-                Navigator.pushReplacement(
-                  context,
-                  FadeAnim(page: const TestView()),
-                );
+                Navigator.pushReplacement(context, FadeAnim(page: const TestView()));
               },
             ),
           ),

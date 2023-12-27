@@ -27,6 +27,7 @@ dependencies:
   shared_preferences: ^2.2.2 # LocalDB
   shimmer: ^3.0.0 # For loading animation
   easy_localization: ^3.0.3 # For multi language support
+  flutter_local_notifications: ^16.3.0
   
 
 # DEV #
