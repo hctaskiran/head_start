@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:head_start/constants/application.dart';
 import 'package:ionicons/ionicons.dart';
 
 class TestView extends StatelessWidget {
@@ -10,7 +9,7 @@ class TestView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Icons'),
-        backgroundColor: CColor.gry3,
+        backgroundColor: Colors.grey[300],
       ),
       backgroundColor: Colors.grey[400],
       body: Column(
@@ -58,7 +57,7 @@ class TestView extends StatelessWidget {
 
   Container _iconContainer(IconData active, IconData passive) {
     return Container(
-        decoration: BoxDecoration(borderRadius: BorderRadius.circular(10), color: CColor.gry3),
+        decoration: BoxDecoration(borderRadius: BorderRadius.circular(10), color: Colors.grey[300]),
         height: 50,
         width: 50,
         child: Row(

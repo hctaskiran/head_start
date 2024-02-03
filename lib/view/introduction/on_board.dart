@@ -1,6 +1,5 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:head_start/constants/application.dart';
 import 'package:head_start/core/init/lang/locale_keys.g.dart';
 import 'package:head_start/theme/animations/slide_anim.dart';
 import 'package:head_start/view/introduction/intropage1.dart';
@@ -61,7 +60,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
               SmoothPageIndicator(
                   controller: _controller,
                   count: 4,
-                  effect: ExpandingDotsEffect(dotColor: CColor.black, activeDotColor: CColor.orange)),
+                  effect: const ExpandingDotsEffect(dotColor: Colors.black, activeDotColor: Colors.orange)),
               onLastPage
                   ? GestureDetector(
                       onTap: () {
@@ -70,7 +69,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                       child: Container(
                           padding: const EdgeInsets.all(10),
                           margin: const EdgeInsets.symmetric(horizontal: 10),
-                          decoration: BoxDecoration(color: CColor.gry7, borderRadius: BorderRadius.circular(8)),
+                          decoration: BoxDecoration(color: Colors.grey[700], borderRadius: BorderRadius.circular(8)),
                           child: Text(LocaleKeys.introduction_done.tr())))
                   : GestureDetector(
                       onTap: () {
@@ -79,7 +78,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                       child: Container(
                           padding: const EdgeInsets.all(10),
                           margin: const EdgeInsets.symmetric(horizontal: 10),
-                          decoration: BoxDecoration(color: CColor.gry7, borderRadius: BorderRadius.circular(8)),
+                          decoration: BoxDecoration(color: Colors.grey[700], borderRadius: BorderRadius.circular(8)),
                           child: Text(LocaleKeys.introduction_next.tr())))
             ],
           ),

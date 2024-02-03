@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:head_start/constants/application.dart';
 import 'package:shimmer/shimmer.dart';
 
 class ShimmerLoad extends StatelessWidget {
@@ -8,8 +7,8 @@ class ShimmerLoad extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Shimmer.fromColors(
-      baseColor: CColor.gry3,
-      highlightColor: CColor.gry1,
+      baseColor: Colors.grey[300]!,
+      highlightColor: Colors.grey[100]!,
       child: ListView.builder(
         itemCount: 8,
         itemBuilder: (context, index) {
@@ -20,21 +19,21 @@ class ShimmerLoad extends StatelessWidget {
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(10),
                 child: Shimmer.fromColors(
-                  baseColor: CColor.gry3,
-                  highlightColor: CColor.gry1,
-                  child: Container(color: CColor.white),
+                  baseColor: Colors.grey[300]!,
+                  highlightColor: Colors.grey[100]!,
+                  child: Container(color: Colors.white),
                 ),
               ),
             ),
             title: Shimmer.fromColors(
-              baseColor: CColor.gry3,
-              highlightColor: CColor.gry1,
-              child: Container(height: 16, color: CColor.white),
+              baseColor: Colors.grey[300]!,
+              highlightColor: Colors.grey[100]!,
+              child: Container(height: 16, color: Colors.white),
             ),
             subtitle: Shimmer.fromColors(
-              baseColor: CColor.gry3,
-              highlightColor: CColor.gry1,
-              child: Container(height: 16, color: CColor.white),
+              baseColor: Colors.grey[300]!,
+              highlightColor: Colors.grey[100]!,
+              child: Container(height: 16, color: Colors.white),
             ),
           );
         },
