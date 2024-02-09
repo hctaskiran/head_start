@@ -1,5 +1,5 @@
 ## INTRO ##
-* 🇬🇧 This template includes basic plugins / widgets future projects. 
+* 🇬🇧 This template includes basic plugins / widgets for future projects. 
 * 🇹🇷 Bu taslak üzerinde yeni bir proje için çeşitli widget ve pluginler mevcuttur.
 * 🇷🇺 В этом черновике есть различные виджеты и плагины посвящены каждым новым проектам.
 
