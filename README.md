@@ -39,9 +39,8 @@
 - Bildirimleri kullanabilmek için;
     iOS: Değişiklik yapılmasına gerek yok. AppDelegate gerektiği şekilde düzenlendi. Sadece `NotificationService().showNotification(id: 2, title: 'fiscis', body: 'This is a notification');` kodunu `onTap` metoduna girin.
     Android: `notification_service.dart` dosyasında bildirim pop-up'ına logo adı vermeniz gerek. `android/app/src/main/res/drawable` klasörüne logoyu png formatında ekleyin.
-=======
 - `Shimmer` yükleme ekranı görevi gördüğü için if-else metodu ile kullanmayı gerektirir.
->>>>>>> 27932eb6c5bad6d81eafb33cf40bd45d6457dbfa
+
 ### 🇷🇺 ###
 - Чтобы правильно настроить локализацию, создайте в папку `assets/translations` файл язык.json (если не нужны будут предварительно созданные языки) затем откройте {} (кронштейны могут быть пустыми) потом запустите скрипт, который называется `lang_build.sh` находящейся в папке `lib/core/script`. Вы должны запустить скрипт при каждом обновлении в локализационных файлах. (ПРИМЕЧАНИЕ: Если не удается запустить код, скопируйте его и вставьте в терминал.)
 - Чтобы использовать код `select_language.dart` на практике, просто поставьте `SelectLanguage()` в actions под AppBar.
