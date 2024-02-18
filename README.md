@@ -10,7 +10,7 @@
 
 
 ## FEATURES / ÖZELLİKLER / ФУНКЦИИ ##
-# Main /  / Главное #
+# Main / Temel / Главное #
 🇬🇧
 - [x] Folder management, everything is in their own folder,
 - [x] Various extensions to make project codes nice and clean 
@@ -39,7 +39,7 @@
 - [x] Различные иконы с примерами,
 - [x] Переключение между Тёмной и Светлой темой,
 
-# Animations / / Анимации #
+# Animations / Animasyonlar / Анимации #
 🇬🇧
 - [x] Animated splash screen, so you can add in the beginning of your app,
 - [x] Smooth animated transitions between pages (Fade, Slide etc.),
@@ -49,8 +49,8 @@
 - [x] Sayfalar araşı yumuşak geçiş animasyonları,
 
 🇷🇺
-- [x]
-- [x]
+- [x] Анимированная заставка при запуске приложения,
+- [x] Анимация перехода между страницами,
 
 # Backend #
 🇬🇧
@@ -69,7 +69,7 @@
 - [x] Http и Dio для управления данных и API,
 
  
-## INSTRUCTIONS / / ИНСТРУКЦИИ ##
+## INSTRUCTIONS / YÖNERGELER / ИНСТРУКЦИИ ##
 ### 🇬🇧 ###
 - In order to use localization properly, if you not going to use pre-created languages, create your language.json file inside `assets/translations` then open {} brackets (brackets can be empty) in order to create localization, then run the code inside `lib/core/script` named `lang_build.sh`. You have to run the script upon update in localization files. (PS: If you can't able to run the script, simply copy the code inside and paste in terminal.)
 - In order to use animations between pages, put `Navigator.push(context, AnimationName(page: const YourPage()));` inside the `onTap` method.
