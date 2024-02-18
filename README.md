@@ -1,16 +1,16 @@
-## INTRO ##
+# INTRO #
 * 🇬🇧 This template includes basic plugins / widgets for future projects. You can see the instructions in different languages below. 
 * 🇹🇷 Bu taslak üzerinde yeni bir proje için çeşitli widget ve pluginler mevcuttur. Diğer dillerde yapılmış açıklamaları aşağıda görebilirsiniz.
 * 🇷🇺 В этом черновике есть различные виджеты и плагины посвящены каждым новым проектам. Вы можете смотреть описания на других языках.
 
-# How to use? / Nasıl kullanılır? / Как пользоваться? #
+## How to use? / Nasıl kullanılır? / Как пользоваться? ##
 * 🇬🇧 There are already pre-made widgets such as theme mode switch or language switch with local database, so no need additinonal installations.
 * 🇹🇷 Proje içerisinde halihazırda tema değiştirme veya dil değiştirme gibi yapılmış widgetler mevcut, ek bir şey yükleme gereksinimi yoktur.
 * 🇷🇺 Уже есть готовые виджеты, такие как переключатель режима темы или переключатель языка с локальной базой данных, поэтому дополнительная установка не требуется.
 
 
-## FEATURES / ÖZELLİKLER / ФУНКЦИИ ##
-# Main / Temel / Главное #
+# FEATURES / ÖZELLİKLER / ФУНКЦИИ #
+## Main / Temel / Главное ##
 🇬🇧
 - [x] Folder management, everything is in their own folder,
 - [x] Various extensions to make project codes nice and clean 
@@ -23,7 +23,7 @@
 - [x] Управление папками, то есть каждому файлу своя папка,
 - [x] Чистота кода с использованием различных расширений
 
-# UI #
+## UI ##
 🇬🇧
 - [x] On boarding screen, which is also known as Introduction screen to teach the basics of the app,
 - [x] Icons that may come in handy in project, several icon packs with visual examples. (Still keep updating)
@@ -39,7 +39,7 @@
 - [x] Различные иконы с примерами,
 - [x] Переключение между Тёмной и Светлой темой,
 
-# Animations / Animasyonlar / Анимации #
+## Animations / Animasyonlar / Анимации ##
 🇬🇧
 - [x] Animated splash screen, so you can add in the beginning of your app,
 - [x] Smooth animated transitions between pages (Fade, Slide etc.),
@@ -52,7 +52,7 @@
 - [x] Анимированная заставка при запуске приложения,
 - [x] Анимация перехода между страницами,
 
-# Backend #
+## Backend ##
 🇬🇧
 - [x] Shared Preferences & Hive as Local Database,
 - [x] Easy Localization for multi-language support,
