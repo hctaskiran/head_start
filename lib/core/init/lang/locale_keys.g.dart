@@ -8,5 +8,9 @@ abstract class  LocaleKeys {
   static const introduction_next = 'introduction.next';
   static const introduction_done = 'introduction.done';
   static const introduction = 'introduction';
+  static const languages_english = 'languages.english';
+  static const languages_turkish = 'languages.turkish';
+  static const languages_russian = 'languages.russian';
+  static const languages = 'languages';
 
 }

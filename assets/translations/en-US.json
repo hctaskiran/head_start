@@ -6,5 +6,10 @@
         "intro4": "Intro 4",
         "next": "Next",
         "done": "Done"
+    },
+    "languages": {
+        "english": "English",
+        "turkish": "Turkish",
+        "russian": "Russian"
     }
 }

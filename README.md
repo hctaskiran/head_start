@@ -1,51 +1,83 @@
 ## INTRO ##
-* 🇬🇧 This template includes basic plugins / widgets for future projects. 
-* 🇹🇷 Bu taslak üzerinde yeni bir proje için çeşitli widget ve pluginler mevcuttur.
-* 🇷🇺 В этом черновике есть различные виджеты и плагины посвящены каждым новым проектам.
+* 🇬🇧 This template includes basic plugins / widgets for future projects. You can see the instructions in different languages below. 
+* 🇹🇷 Bu taslak üzerinde yeni bir proje için çeşitli widget ve pluginler mevcuttur. Diğer dillerde yapılmış açıklamaları aşağıda görebilirsiniz.
+* 🇷🇺 В этом черновике есть различные виджеты и плагины посвящены каждым новым проектам. Вы можете смотреть описания на других языках.
 
-## FEATURES ##
-# Main #
+# How to use? / Nasıl kullanılır? / Как пользоваться? #
+* 🇬🇧 There are already pre-made widgets such as theme mode switch or language switch with local database, so no need additinonal installations.
+* 🇹🇷 Proje içerisinde halihazırda tema değiştirme veya dil değiştirme gibi yapılmış widgetler mevcut, ek bir şey yükleme gereksinimi yoktur.
+* 🇷🇺 Уже есть готовые виджеты, такие как переключатель режима темы или переключатель языка с локальной базой данных, поэтому дополнительная установка не требуется.
+
+
+## FEATURES / ÖZELLİKLER / ФУНКЦИИ ##
+# Main /  / Главное #
+🇬🇧
 - [x] Folder management, everything is in their own folder,
 - [x] Various extensions to make project codes nice and clean 
 
-# UI Addons #
+🇹🇷
+- [x] Klasör düzenlemesi,
+- [x] Çeşitli extesion kullanılarak kod temizliği ve sürdürülebilirliği,
+
+🇷🇺
+- [x] Управление папками, то есть каждому файлу своя папка,
+- [x] Чистота кода с использованием различных расширений
+
+# UI #
+🇬🇧
 - [x] On boarding screen, which is also known as Introduction screen to teach the basics of the app,
+- [x] Icons that may come in handy in project, several icon packs with visual examples. (Still keep updating)
+- [x] Theme Mode selector using Switch between Light & Dark mode.
+
+🇹🇷
+- [x] Uygulamanın temellerini anlatabilmek adına animasyonlu bir giriş ekranı,
+- [x] İşe yarayabilecek çeşitli ikonlar ve örnekleri,
+- [x] Koyu ve açık tema arası geçiş yapabilme,
+
+🇷🇺
+- [x] Вводый экран с целью научить основам приложения,
+- [x] Различные иконы с примерами,
+- [x] Переключение между Тёмной и Светлой темой,
+
+# Animations / / Анимации #
+🇬🇧
 - [x] Animated splash screen, so you can add in the beginning of your app,
 - [x] Smooth animated transitions between pages (Fade, Slide etc.),
-- [x] Shimmer, for a cool loading screen. 
-- [x] Icons that may come in handy in project, several icon packs with visual examples. (Still keep updating)
 
-# Backend Addons #
-- [x] Shared Preferences as Local Database,
+🇹🇷
+- [x] Animasyonlu açılış ekranı,
+- [x] Sayfalar araşı yumuşak geçiş animasyonları,
+
+🇷🇺
+- [x]
+- [x]
+
+# Backend #
+🇬🇧
+- [x] Shared Preferences & Hive as Local Database,
 - [x] Easy Localization for multi-language support,
 - [x] Dio - Http for API management,
-- [x] Push-Notification in order to send notifications,
+
+🇹🇷
+- [x] Shared Preferences & Hive ile lokal depolama,
+- [x] Çoklu dil desteği için Easy Localization,
+- [x] Veri ve API yönetimi için Http & Dio,
+
+🇷🇺
+- [x] Shared Preferences и Hive для локальной базы,
+- [x] Easy Localization для многоязычной поддержки,
+- [x] Http и Dio для управления данных и API,
+
  
-## INSTRUCTIONS ##
+## INSTRUCTIONS / / ИНСТРУКЦИИ ##
 ### 🇬🇧 ###
 - In order to use localization properly, if you not going to use pre-created languages, create your language.json file inside `assets/translations` then open {} brackets (brackets can be empty) in order to create localization, then run the code inside `lib/core/script` named `lang_build.sh`. You have to run the script upon update in localization files. (PS: If you can't able to run the script, simply copy the code inside and paste in terminal.)
-- In order to use the code `select_language.dart` in pratice, simply put `SelectLanguage()` inside the actions of AppBar.
 - In order to use animations between pages, put `Navigator.push(context, AnimationName(page: const YourPage()));` inside the `onTap` method.
-- `Shimmer` requires if-else method as it serves as a loading screen.
-- In order to use Notifications;
-    iOS: Nothing special to do, AppDelegate edited as required. Simply put the code inside the `onTap`: 
-        `NotificationService().showNotification(id: id_here, title: 'TITLE_HERE', body: 'NOTIFICATION_MESSAGE_HERE');`.
-    Android: You will have to put an logo name for notification pop-up inside the `notification_service.dart` file. Don't forget to put the logo inside `android/app/src/main/res/drawable` as png.
+
 ### 🇹🇷 ###
 - Lokalizasyon paketini kullanabilmek için `assets/translations` klasörüne kendi dil.json dosyanızı oluşturup (şayet bu projede bulunmayan dil ekleyecekseniz) dosyanın içine {} açıp (parantezler boş kalabilir) `lib/core/script` klasöründeki `lang_build.sh` scriptini çalıştırın. Her lokalizayon eklediğinizde veya güncelleyeceğinizde scripti çalıştırmalısınız. (NOT: Eğer kodu çalıştıramıyorsanız, script içindeki kodu kopyalayıp terminale yapıştırın.)
-- `select_language.dart` kodunu pratiğe dökmek için AppBar içindeki actions'a `SelectLanguage()` ismini yazın.
 - Sayfalar arası geçiş animasyonu için `Navigator.push(context, AnimationName(page: const YourPage()));` kodunu `onTap` methodu içine yazın.
-<<<<<<< HEAD
-- Bildirimleri kullanabilmek için;
-    iOS: Değişiklik yapılmasına gerek yok. AppDelegate gerektiği şekilde düzenlendi. Sadece `NotificationService().showNotification(id: 2, title: 'fiscis', body: 'This is a notification');` kodunu `onTap` metoduna girin.
-    Android: `notification_service.dart` dosyasında bildirim pop-up'ına logo adı vermeniz gerek. `android/app/src/main/res/drawable` klasörüne logoyu png formatında ekleyin.
-- `Shimmer` yükleme ekranı görevi gördüğü için if-else metodu ile kullanmayı gerektirir.
 
 ### 🇷🇺 ###
 - Чтобы правильно настроить локализацию, создайте в папку `assets/translations` файл язык.json (если не нужны будут предварительно созданные языки) затем откройте {} (кронштейны могут быть пустыми) потом запустите скрипт, который называется `lang_build.sh` находящейся в папке `lib/core/script`. Вы должны запустить скрипт при каждом обновлении в локализационных файлах. (ПРИМЕЧАНИЕ: Если не удается запустить код, скопируйте его и вставьте в терминал.)
-- Чтобы использовать код `select_language.dart` на практике, просто поставьте `SelectLanguage()` в actions под AppBar.
 - Чтобы астроить анимации между страничками поставьте `Navigator.push(context, AnimationName(page: const YourPage()));` внутри `onTap`.
-- `Shimmer` требует метода if-else, поскольку он служит экраном загрузки.
-- Для получения уведомлений;
-    iOS: Не нужны изменения. AppDelegate уже отредактирован как следует. Поставьте `NotificationService().showNotification(id: 2, title: 'fiscis', body: 'This is a notification');` внутри `onTap`.
-    Андроид: В папке `notification_service.dart` вам придется поместить имя логотипа для уведомления всплывающего окна. Не забудьте загрузить логотип в `android/app/src/main/res/drawable` как png.

@@ -2,7 +2,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:head_start/core/enum/locale_enum.dart';
 import 'package:head_start/theme/animations/fade_anim.dart';
-import 'package:head_start/view/test/test_view.dart';
+import 'package:head_start/pages/test_pages/test_home.dart';
 
 class SelectLanguage extends Padding {
   final BuildContext context;

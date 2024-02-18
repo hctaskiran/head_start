@@ -11,23 +11,34 @@ dependencies:
   flutter:
     sdk: flutter
 
-  # UI #
-  cupertino_icons: ^1.0.2 # Default by Flutter
-  animated_text_kit: ^4.2.2 # For animated titles or texts
-  lottie: ^2.7.0 # For animation / icons
-  ionicons: ^0.2.2 # For Icons
-  smooth_page_indicator: ^1.1.0 # For introduction Screen
-  animated_splash_screen: ^1.3.0 # For splash screen
-  google_fonts: ^6.1.0 # For fonts
+  # Icons #
+  cupertino_icons: ^1.0.2
+  ionicons: ^0.2.2
 
-  # Backend #
-  dio: ^5.4.0 # For API calls
-  http: ^1.1.2 # For API calls
-  hive: ^2.2.3 # Local DB
-  shared_preferences: ^2.2.2 # LocalDB
-  shimmer: ^3.0.0 # For loading animation
-  easy_localization: ^3.0.3 # For multi language support
-  flutter_local_notifications: ^16.3.0
+  # Fonts #
+  google_fonts: ^6.1.0
+
+  # Animation #
+  animated_text_kit: ^4.2.2
+  lottie: ^2.7.0
+  animated_splash_screen: ^1.3.0
+  smooth_page_indicator: ^1.1.0
+
+  # Http Requests #
+  dio: ^5.4.0
+  http: ^1.1.2
+
+  # Local Storage #
+  shared_preferences: ^2.2.2
+  hive: ^2.2.3
+
+  # Internationalization #
+  easy_localization: ^3.0.3
+
+  # State Managements #
+  bloc: ^8.1.3
+  flutter_bloc: ^8.1.4
+  equatable: ^2.0.5
   
 
 # DEV #
@@ -41,8 +52,8 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/img/ # Images
-    - assets/translations/ # Translations
+    - assets/images/
+    - assets/translations/
   
   # fonts:
   #   - family: Schyler
